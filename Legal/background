@@ -1,23 +1,23 @@
 Regulatory background
 Asteroid Law:
 
-UN Outer Space Treaty - signed by US well shut my mouth
+UN Outer Space Treaty - signed by US 
 - nations/companies cannot claim/own territory in space
 
 US Commercial Space Launch Competitiveness Act (eff 2015) - 
-- US-based companies own the minerals they have extracted  [how affect foreign corporations?]
+- US-based companies own the minerals they have extracted 
 - no regulation of space companies like Blue Origin, SpaceX until 2023
 
 Luxembourg Asteroid Mining Law (eff 8/1/2018) - 
 - Luxembourg-registered companies own the minerals they have extracted
-- creates system for govt to authorize and supervise resource extraction in space
+- creates system for government to authorize and supervise resource extraction in space
 
 
 U.S. Regulation relating to ICOs:
-Legal Practitioners: Alice Townes (Townes Law), Sarah Hody (Perkins Coie)
+Legal Practitioners: Alice Townes, Sarah Hody
 
 Compliance considerations for ETHSF asteroid mining project:
-(for links to authorities, see: https://k-band.us/CryptoAgencies)
+(for links to authorities, see https://k-band.us/CryptoAgencies)
 
 Crowdfunding 
 	 - must register with SEC as a funding portal (or use registered broker-dealer)
@@ -30,8 +30,9 @@ Selling minerals extracted
 
 Distributing funds 
    	 - as money transmitter, must get licensed in all states where doing business
-   	 - as MSB, subject to FinCEN criminal enforcement of securities laws 
-   	 - FBI can also assist with securities law violation enforcement
+   	 - as MSB (money services business), subject to FinCEN criminal enforcement of securities laws 
+   	 - FBI can assist with securities law violation enforcement
+
 Trust policies 
  	 - advise users of income tax implications
 	 - advise users of severance tax implications
@@ -56,7 +57,7 @@ CFTC Commodity Futures Trading Commission - tokens can be commodities
      certain persons must file ownership and control reports 
 
 FinCEN Financial Crimes Enforcement Network - tokens are money
-     regulates fin. institutions, money services businesses(MSBs) - crypto exchanges are MSBs
+     regulates financial institutions, money services businesses - crypto exchanges are MSBs
      helps enforce BSA provisions of Securities Act - criminal penalties (=go to jail)
 
 OFAC Office of Foreign Assets Control - trade sanctions and asset freezing  
@@ -71,58 +72,68 @@ Possible ways to lower the risk of regulator attention early on:
   - use language that conforms to the regulatory regime you want 
   - publicize internal trust policies to establish a reputation for integrity
   - make communications about what you do and who you serve bland and generic, describing services
-     in factual terms that avoid loaded words.
+     in factual terms that avoid loaded words
 also consider when liability insurance makes sense, and probably publish an age recommendation.
 
 _________________________________________________
-Questions / challenges:
-1.  Do we need to do basic ‘KYC’ and link tokens to real person name, address, tax number? 
-For ICOs/crowdfunding - YES, per Bank Secrecy Act as enforced by SEC and FinCEN
+Questions/challenges:
+1.  Do we need to do basic KYC and link tokens to real person name, address, tax number? 
+    
+    For ICOs/crowdfunding - YES, per Bank Secrecy Act as enforced by SEC and FinCEN
  
-     info required for compliance not specified in FinCEN rules 
-     note: you must get info on beneficial owner, not just legal owner
-     use FINRA as model? - haha FINRA rule is tautological 
-     --> try minimum id information but swath in lots of good intention language in all public and private communications
+    Info required for compliance not specified in FinCEN rules [need research] 
+    you must get info on beneficial owner, not just legal owner
+    use FINRA as model? - haha FINRA rule is tautological 
+    --> try minimum id information but swath in lots of good intention language in all public and private communications
  
-2. For token transferability, is it possible in legal prose to refer to “token bearer” generally, not specific physical person/entity?
-For tokens on centralized or semi-decentralized exchange - probably not, because FinCEN claims crypto exchanges are MSBs (must file SARs and Currency Transaction Reports) 
+2. For token transferability, is it possible in legal prose to refer to “token bearer” generally, 
+   not specific physical   person/entity?
+   
+   For tokens on centralized or semi-decentralized exchange - probably not, because FinCEN claims crypto exchanges are MSBs      (must file SARs and Currency Transaction Reports) 
  
-3. Can we use existing solutions connecting Ethereum smart contracts and legal prose? 
+3. Can we use existing solutions connecting Ethereum smart contract and legal prose? 
 	
-     Look at private supply chain projects
-     OpenLaw - smart contracts - “model all or parts of legal agreements using code”
-     Chainlink - links only to already-digitized assets
-     NFT token licensing, like Cryptokitties - for digital assets
+     Look at private supply chain projects for model of mining-to-market tracking
+     Look at NFT token licensing, like Cryptokitties for digital assets
  
-*Astero smart legal agreement 
-- store hash or checksum of traditional contract in smart contract 
-- traditional contract held where?
-- KYC compliance - reference self-sovereign identity token (ex: Civic, Sovrin) 
-  or authorization tokens (ex: SelfKey) for accredited investors
+
+Astero smart legal agreement
+     - store hash or checksum of traditional contract in smart contract 
+     - traditional contract held where?
+     - KYC compliance - reference self-sovereign identity token (ex: Civic, Sovrin) 
+       or authorization tokens (ex: SelfKey) for accredited investors
 	- compliance for secondary trades (1-year lockup for Rule 506c securities) 
         reference other compliance projects (ex: Harbor? Tokensoft?)
  
 Provide model contract/licensing agreement with national government? 
-giving exclusive right to explore/mine the discovered resources in exchange for royalties, taxes, and other obligations--unless government already has law governing mineral rights in space, then wow
+     giving exclusive right to explore/mine the discovered resources in exchange for royalties, taxes, and other obligations--      unless government already has law governing mineral rights in space, then wow
 		
 Taras’s smart legal agreement
-- link offline dumb contract for real-world proceeds with digital smart contract to distribute
-- enforce operator to transfer mined materials to agent nominated by tokenholders, or to sell   
-  at market price and distribute proceeds to agent
-     (commodities can be identified/verified through sensors, IOT, scanners, system feeds,
-      by community, consortium, DAO etc)
-- physical assets are regulated by the jurisdiction you’re in - smart contract depends on     
-  dumb contract enforcement by jurisdiction the defendant is in
+     - link offline dumb contract for real-world proceeds with digital smart contract to distribute
+     - enforce operator to transfer mined materials to agent nominated by tokenholders, or 
+       to sell at market price and distribute proceeds to agent
+          (commodities can be identified/verified through sensors, IOT, scanners, system feeds, 
+           by community, consortium, DAO etc)
+     - physical assets are regulated by the jurisdiction you’re in - smart contract depends on     
+       dumb contract enforced by jurisdiction the defendant is in
  
 Options we considered for contract for proceeds distribution:
 property ownership 
 - not real property - companies only own minerals after they are extracted
 - personal property - commodities are fungible so it’s an agreement for a measure of the commodity itself or the $ proceeds 
+
 joint venture - structurally ok for profit/loss sharing - but may be issue of control over the venture  
-- CA law: “It is not sufficient that the parties have certain plans in common, but the community of interest must be such that [each] is entitled to be heard in the control [of the enterprise].” 
-- See JV scenario: https://www.metalbulletin.com/Article/3814426/Gcamines-to-restructure-mining-contracts-with-JV-partners-chairman.html
-futures contract (CFTC-regulated) - standardized, tradeable agreement to buy or deliver for sale a commodity...
-- think it has to be for certain amount of the commodity [need research - regular contracts do not need to be for certain amount]   
+- CA law: “It is not sufficient that the parties have certain plans in common, but the community of interest 
+  must be such that  [each] is entitled to be heard in the control [of the enterprise].” 
+- See JV scenario: 
+  https://www.metalbulletin.com/Article/3814426/Gcamines-to-restructure-mining-contracts-with-JV-partners-chairman.html
+
+futures contract (CFTC-regulated) 
+- standardized, tradeable agreement to buy or deliver for sale a commodity...
+- think it has to be for certain amount of the commodity [need research - 
+  regular contracts do not need to be for certain amount]   
+
 equity ownership share  
-- used by startup teams that are legal entities (corporations can have tradeable ownership shares) or DAOs - tokenholders are shareholders, tokenholders vote on what to do with them or sell the ore and pay out dividends etc
+- used by startup teams that are legal entities (corporations can have tradeable ownership shares) or DAOs  
+- tokenholders are shareholders, tokenholders vote on what to do with them or sell the ore and pay out dividends etc
 
