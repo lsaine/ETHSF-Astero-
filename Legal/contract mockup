@@ -7,11 +7,23 @@ Parties: Operator and Zoom, Inc.
  
 Operator agrees to launch [insert project description] within [time] of signing this agreement, and deliver raw mined materials to [Zoom agent] within [time].  
  
--->assumes agent will digitally identify/verify mined materials to track to sale - digital id can be included in smart contract to distribute proceeds
+     -->assumes agent will digitally identify/verify mined materials to track to sale - digital id can be included in smart        contract to distribute proceeds
  
-In return, Zoom will pay operator [$] + [bonus if complete within x time with no accidents, or some other performance metric] + [amount based on sale of commodity refined from mined materials] within [time] of commodity sale.
+In return, Zoom will pay operator [negotiated amount] + [bonus if complete within x time with no accidents, or some other performance metric] + [amount based on sale of commodity refined from mined materials] within [time] of commodity sale.
+ 
+Definitions:
+ 
+Provisions:
+ 
+[a bunch of clauses to cover all sorts of space-disaster scenarios if things go awry + standard metal-mining contract boilerplate clauses]
+ 
+Work Plan:
  
  
-[a bunch of clauses to cover all sorts of disaster scenarios if things go awry: accidents, loss of equipment, cleanup, ??
+     --> see sample Earth metal mining agreements for ideas for language and clauses:          
+     https://www.iisd.org/pdf/2013/mmda_transparency_report.pdf
+     https://contracts.onecle.com/alpha/6270.shtml
+     https://www.sec.gov/Archives/edgar/data/1346685/000119312505242636/dex1010.htm
  
-- use sample mining contracts as model:
+ 
+ 
