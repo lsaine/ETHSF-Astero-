@@ -1,0 +1,17 @@
+Purpose: to enforce operator transfer of mined materials to agent nominated by token-holders, or to sell at market price and distribute proceeds according to token ownership
+ 
+ 
+Agreement for Asteroid Mining
+ 
+Parties: Operator and Zoom, Inc. 
+ 
+Operator agrees to launch [insert project description] within [time] of signing this agreement, and deliver raw mined materials to [Zoom agent] within [time].  
+ 
+-->assumes agent will digitally identify/verify mined materials to track to sale - digital id can be included in smart contract to distribute proceeds
+ 
+In return, Zoom will pay operator [$] + [bonus if complete within x time with no accidents, or some other performance metric] + [amount based on sale of commodity refined from mined materials] within [time] of commodity sale.
+ 
+ 
+[a bunch of clauses to cover all sorts of disaster scenarios if things go awry: accidents, loss of equipment, cleanup, ??
+ 
+- use sample mining contracts as model:
